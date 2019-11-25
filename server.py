@@ -25,3 +25,4 @@ while True:
         x.start()
     except KeyboardInterrupt:
         x.kill()
+        a.close()
